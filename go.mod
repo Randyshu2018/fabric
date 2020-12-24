@@ -4,7 +4,6 @@ go 1.14
 
 // https://github.com/golang/go/issues/34610
 replace (
-	github.com/Randyshu2018/fabric => ./
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190920190810-ef0ce1748380
 )
 
