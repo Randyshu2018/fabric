@@ -7,31 +7,363 @@ github.com/Azure/go-ansiterm
 github.com/Azure/go-ansiterm/winterm
 # github.com/BurntSushi/toml v0.3.1
 github.com/BurntSushi/toml
-# github.com/DataDog/zstd v1.4.0
+# github.com/DataDog/zstd v1.4.5
 ## explicit
 github.com/DataDog/zstd
-# github.com/Hyperledger/fabric v2.1.1+incompatible
-## explicit
-github.com/Hyperledger/fabric/bccsp
 # github.com/Knetic/govaluate v3.0.0+incompatible
 ## explicit
 github.com/Knetic/govaluate
 # github.com/Microsoft/go-winio v0.4.12
 github.com/Microsoft/go-winio
-# github.com/Microsoft/hcsshim v0.8.6
+# github.com/Randyshu2018/fabric v2.1.1+incompatible => ./
 ## explicit
-github.com/Microsoft/hcsshim/osversion
+github.com/Randyshu2018/fabric/bccsp
+github.com/Randyshu2018/fabric/bccsp/factory
+github.com/Randyshu2018/fabric/bccsp/gm
+github.com/Randyshu2018/fabric/bccsp/idemix
+github.com/Randyshu2018/fabric/bccsp/idemix/bridge
+github.com/Randyshu2018/fabric/bccsp/idemix/handlers
+github.com/Randyshu2018/fabric/bccsp/idemix/handlers/mock
+github.com/Randyshu2018/fabric/bccsp/mocks
+github.com/Randyshu2018/fabric/bccsp/pkcs11
+github.com/Randyshu2018/fabric/bccsp/signer
+github.com/Randyshu2018/fabric/bccsp/sw
+github.com/Randyshu2018/fabric/bccsp/sw/mocks
+github.com/Randyshu2018/fabric/bccsp/utils
+github.com/Randyshu2018/fabric/cmd/common
+github.com/Randyshu2018/fabric/cmd/common/comm
+github.com/Randyshu2018/fabric/cmd/common/signer
+github.com/Randyshu2018/fabric/common/capabilities
+github.com/Randyshu2018/fabric/common/cauthdsl
+github.com/Randyshu2018/fabric/common/chaincode
+github.com/Randyshu2018/fabric/common/channelconfig
+github.com/Randyshu2018/fabric/common/config
+github.com/Randyshu2018/fabric/common/configtx
+github.com/Randyshu2018/fabric/common/configtx/mock
+github.com/Randyshu2018/fabric/common/configtx/test
+github.com/Randyshu2018/fabric/common/crypto
+github.com/Randyshu2018/fabric/common/crypto/tlsgen
+github.com/Randyshu2018/fabric/common/deliver
+github.com/Randyshu2018/fabric/common/deliver/mock
+github.com/Randyshu2018/fabric/common/diag
+github.com/Randyshu2018/fabric/common/errors
+github.com/Randyshu2018/fabric/common/flogging
+github.com/Randyshu2018/fabric/common/flogging/fabenc
+github.com/Randyshu2018/fabric/common/flogging/floggingtest
+github.com/Randyshu2018/fabric/common/flogging/httpadmin
+github.com/Randyshu2018/fabric/common/flogging/httpadmin/fakes
+github.com/Randyshu2018/fabric/common/flogging/metrics
+github.com/Randyshu2018/fabric/common/flogging/mock
+github.com/Randyshu2018/fabric/common/genesis
+github.com/Randyshu2018/fabric/common/graph
+github.com/Randyshu2018/fabric/common/grpclogging
+github.com/Randyshu2018/fabric/common/grpclogging/fakes
+github.com/Randyshu2018/fabric/common/grpclogging/testpb
+github.com/Randyshu2018/fabric/common/grpcmetrics
+github.com/Randyshu2018/fabric/common/grpcmetrics/fakes
+github.com/Randyshu2018/fabric/common/grpcmetrics/testpb
+github.com/Randyshu2018/fabric/common/ledger
+github.com/Randyshu2018/fabric/common/ledger/blkstorage
+github.com/Randyshu2018/fabric/common/ledger/blockledger
+github.com/Randyshu2018/fabric/common/ledger/blockledger/fileledger
+github.com/Randyshu2018/fabric/common/ledger/dataformat
+github.com/Randyshu2018/fabric/common/ledger/snapshot
+github.com/Randyshu2018/fabric/common/ledger/testutil
+github.com/Randyshu2018/fabric/common/ledger/testutil/fakes
+github.com/Randyshu2018/fabric/common/ledger/util
+github.com/Randyshu2018/fabric/common/ledger/util/leveldbhelper
+github.com/Randyshu2018/fabric/common/metadata
+github.com/Randyshu2018/fabric/common/metrics
+github.com/Randyshu2018/fabric/common/metrics/disabled
+github.com/Randyshu2018/fabric/common/metrics/gendoc
+github.com/Randyshu2018/fabric/common/metrics/internal/namer
+github.com/Randyshu2018/fabric/common/metrics/metricsfakes
+github.com/Randyshu2018/fabric/common/metrics/prometheus
+github.com/Randyshu2018/fabric/common/metrics/statsd
+github.com/Randyshu2018/fabric/common/metrics/statsd/goruntime
+github.com/Randyshu2018/fabric/common/policies
+github.com/Randyshu2018/fabric/common/policies/inquire
+github.com/Randyshu2018/fabric/common/policies/mocks
+github.com/Randyshu2018/fabric/common/policydsl
+github.com/Randyshu2018/fabric/common/semaphore
+github.com/Randyshu2018/fabric/common/tools/idemixgen/idemixca
+github.com/Randyshu2018/fabric/common/tools/idemixgen/metadata
+github.com/Randyshu2018/fabric/common/util
+github.com/Randyshu2018/fabric/common/viperutil
+github.com/Randyshu2018/fabric/core/aclmgmt
+github.com/Randyshu2018/fabric/core/aclmgmt/mocks
+github.com/Randyshu2018/fabric/core/aclmgmt/resources
+github.com/Randyshu2018/fabric/core/cclifecycle
+github.com/Randyshu2018/fabric/core/cclifecycle/mocks
+github.com/Randyshu2018/fabric/core/chaincode
+github.com/Randyshu2018/fabric/core/chaincode/accesscontrol
+github.com/Randyshu2018/fabric/core/chaincode/extcc
+github.com/Randyshu2018/fabric/core/chaincode/extcc/mock
+github.com/Randyshu2018/fabric/core/chaincode/fake
+github.com/Randyshu2018/fabric/core/chaincode/lifecycle
+github.com/Randyshu2018/fabric/core/chaincode/lifecycle/mock
+github.com/Randyshu2018/fabric/core/chaincode/mock
+github.com/Randyshu2018/fabric/core/chaincode/persistence
+github.com/Randyshu2018/fabric/core/chaincode/persistence/mock
+github.com/Randyshu2018/fabric/core/chaincode/platforms
+github.com/Randyshu2018/fabric/core/chaincode/platforms/golang
+github.com/Randyshu2018/fabric/core/chaincode/platforms/java
+github.com/Randyshu2018/fabric/core/chaincode/platforms/mock
+github.com/Randyshu2018/fabric/core/chaincode/platforms/node
+github.com/Randyshu2018/fabric/core/chaincode/platforms/util
+github.com/Randyshu2018/fabric/core/committer
+github.com/Randyshu2018/fabric/core/committer/txvalidator
+github.com/Randyshu2018/fabric/core/committer/txvalidator/mocks
+github.com/Randyshu2018/fabric/core/committer/txvalidator/plugin
+github.com/Randyshu2018/fabric/core/committer/txvalidator/v14
+github.com/Randyshu2018/fabric/core/committer/txvalidator/v14/mocks
+github.com/Randyshu2018/fabric/core/committer/txvalidator/v14/testdata
+github.com/Randyshu2018/fabric/core/committer/txvalidator/v20
+github.com/Randyshu2018/fabric/core/committer/txvalidator/v20/mocks
+github.com/Randyshu2018/fabric/core/committer/txvalidator/v20/plugindispatcher
+github.com/Randyshu2018/fabric/core/committer/txvalidator/v20/plugindispatcher/mocks
+github.com/Randyshu2018/fabric/core/committer/txvalidator/v20/testdata
+github.com/Randyshu2018/fabric/core/committer/txvalidator/v20/valinforetriever
+github.com/Randyshu2018/fabric/core/committer/txvalidator/v20/valinforetriever/mocks
+github.com/Randyshu2018/fabric/core/common/ccpackage
+github.com/Randyshu2018/fabric/core/common/ccprovider
+github.com/Randyshu2018/fabric/core/common/privdata
+github.com/Randyshu2018/fabric/core/common/privdata/mock
+github.com/Randyshu2018/fabric/core/common/sysccprovider
+github.com/Randyshu2018/fabric/core/common/validation
+github.com/Randyshu2018/fabric/core/common/validation/statebased
+github.com/Randyshu2018/fabric/core/common/validation/statebased/mocks
+github.com/Randyshu2018/fabric/core/config
+github.com/Randyshu2018/fabric/core/config/configtest
+github.com/Randyshu2018/fabric/core/container
+github.com/Randyshu2018/fabric/core/container/ccintf
+github.com/Randyshu2018/fabric/core/container/dockercontroller
+github.com/Randyshu2018/fabric/core/container/dockercontroller/mock
+github.com/Randyshu2018/fabric/core/container/externalbuilder
+github.com/Randyshu2018/fabric/core/container/mock
+github.com/Randyshu2018/fabric/core/deliverservice
+github.com/Randyshu2018/fabric/core/deliverservice/fake
+github.com/Randyshu2018/fabric/core/dispatcher
+github.com/Randyshu2018/fabric/core/dispatcher/mock
+github.com/Randyshu2018/fabric/core/endorser
+github.com/Randyshu2018/fabric/core/endorser/fake
+github.com/Randyshu2018/fabric/core/endorser/mocks
+github.com/Randyshu2018/fabric/core/handlers/auth
+github.com/Randyshu2018/fabric/core/handlers/auth/filter
+github.com/Randyshu2018/fabric/core/handlers/decoration
+github.com/Randyshu2018/fabric/core/handlers/decoration/decorator
+github.com/Randyshu2018/fabric/core/handlers/endorsement/api
+github.com/Randyshu2018/fabric/core/handlers/endorsement/api/identities
+github.com/Randyshu2018/fabric/core/handlers/endorsement/api/state
+github.com/Randyshu2018/fabric/core/handlers/endorsement/builtin
+github.com/Randyshu2018/fabric/core/handlers/endorsement/builtin/mocks
+github.com/Randyshu2018/fabric/core/handlers/endorsement/plugin
+github.com/Randyshu2018/fabric/core/handlers/library
+github.com/Randyshu2018/fabric/core/handlers/validation/api
+github.com/Randyshu2018/fabric/core/handlers/validation/api/capabilities
+github.com/Randyshu2018/fabric/core/handlers/validation/api/identities
+github.com/Randyshu2018/fabric/core/handlers/validation/api/policies
+github.com/Randyshu2018/fabric/core/handlers/validation/api/state
+github.com/Randyshu2018/fabric/core/handlers/validation/builtin
+github.com/Randyshu2018/fabric/core/handlers/validation/builtin/mocks
+github.com/Randyshu2018/fabric/core/handlers/validation/builtin/v12
+github.com/Randyshu2018/fabric/core/handlers/validation/builtin/v12/mocks
+github.com/Randyshu2018/fabric/core/handlers/validation/builtin/v13
+github.com/Randyshu2018/fabric/core/handlers/validation/builtin/v13/mocks
+github.com/Randyshu2018/fabric/core/handlers/validation/builtin/v20
+github.com/Randyshu2018/fabric/core/handlers/validation/builtin/v20/mocks
+github.com/Randyshu2018/fabric/core/ledger
+github.com/Randyshu2018/fabric/core/ledger/cceventmgmt
+github.com/Randyshu2018/fabric/core/ledger/confighistory
+github.com/Randyshu2018/fabric/core/ledger/internal/version
+github.com/Randyshu2018/fabric/core/ledger/kvledger
+github.com/Randyshu2018/fabric/core/ledger/kvledger/benchmark/chainmgmt
+github.com/Randyshu2018/fabric/core/ledger/kvledger/benchmark/mocks
+github.com/Randyshu2018/fabric/core/ledger/kvledger/bookkeeping
+github.com/Randyshu2018/fabric/core/ledger/kvledger/history
+github.com/Randyshu2018/fabric/core/ledger/kvledger/msgs
+github.com/Randyshu2018/fabric/core/ledger/kvledger/tests/fakes
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate/mock
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/pvtstatepurgemgmt
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/queryutil
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/queryutil/mock
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/rwsetutil
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/statedb
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/statedb/commontests
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/statedb/mock
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/statedb/statecouchdb
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/statemetadata
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/txmgr
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/validation
+github.com/Randyshu2018/fabric/core/ledger/kvledger/txmgmt/validation/mock
+github.com/Randyshu2018/fabric/core/ledger/ledgermgmt
+github.com/Randyshu2018/fabric/core/ledger/ledgermgmt/ledgermgmttest
+github.com/Randyshu2018/fabric/core/ledger/mock
+github.com/Randyshu2018/fabric/core/ledger/pvtdatapolicy
+github.com/Randyshu2018/fabric/core/ledger/pvtdatapolicy/mock
+github.com/Randyshu2018/fabric/core/ledger/pvtdatapolicy/testutil
+github.com/Randyshu2018/fabric/core/ledger/pvtdatastorage
+github.com/Randyshu2018/fabric/core/ledger/util
+github.com/Randyshu2018/fabric/core/middleware
+github.com/Randyshu2018/fabric/core/middleware/fakes
+github.com/Randyshu2018/fabric/core/mocks/txvalidator
+github.com/Randyshu2018/fabric/core/mocks/validator
+github.com/Randyshu2018/fabric/core/operations
+github.com/Randyshu2018/fabric/core/operations/fakes
+github.com/Randyshu2018/fabric/core/peer
+github.com/Randyshu2018/fabric/core/peer/mock
+github.com/Randyshu2018/fabric/core/policy
+github.com/Randyshu2018/fabric/core/policy/mocks
+github.com/Randyshu2018/fabric/core/scc
+github.com/Randyshu2018/fabric/core/scc/cscc
+github.com/Randyshu2018/fabric/core/scc/cscc/mocks
+github.com/Randyshu2018/fabric/core/scc/lscc
+github.com/Randyshu2018/fabric/core/scc/lscc/mock
+github.com/Randyshu2018/fabric/core/scc/mock
+github.com/Randyshu2018/fabric/core/scc/qscc
+github.com/Randyshu2018/fabric/core/testutil
+github.com/Randyshu2018/fabric/core/transientstore
+github.com/Randyshu2018/fabric/core/tx
+github.com/Randyshu2018/fabric/core/tx/endorser
+github.com/Randyshu2018/fabric/discovery
+github.com/Randyshu2018/fabric/discovery/client
+github.com/Randyshu2018/fabric/discovery/cmd
+github.com/Randyshu2018/fabric/discovery/cmd/mocks
+github.com/Randyshu2018/fabric/discovery/endorsement
+github.com/Randyshu2018/fabric/discovery/protoext
+github.com/Randyshu2018/fabric/discovery/support
+github.com/Randyshu2018/fabric/discovery/support/acl
+github.com/Randyshu2018/fabric/discovery/support/chaincode
+github.com/Randyshu2018/fabric/discovery/support/config
+github.com/Randyshu2018/fabric/discovery/support/gossip
+github.com/Randyshu2018/fabric/discovery/support/gossip/mocks
+github.com/Randyshu2018/fabric/discovery/support/mocks
+github.com/Randyshu2018/fabric/gossip/api
+github.com/Randyshu2018/fabric/gossip/api/mocks
+github.com/Randyshu2018/fabric/gossip/comm
+github.com/Randyshu2018/fabric/gossip/comm/mocks
+github.com/Randyshu2018/fabric/gossip/common
+github.com/Randyshu2018/fabric/gossip/discovery
+github.com/Randyshu2018/fabric/gossip/election
+github.com/Randyshu2018/fabric/gossip/filter
+github.com/Randyshu2018/fabric/gossip/gossip
+github.com/Randyshu2018/fabric/gossip/gossip/algo
+github.com/Randyshu2018/fabric/gossip/gossip/channel
+github.com/Randyshu2018/fabric/gossip/gossip/msgstore
+github.com/Randyshu2018/fabric/gossip/gossip/pull
+github.com/Randyshu2018/fabric/gossip/identity
+github.com/Randyshu2018/fabric/gossip/metrics
+github.com/Randyshu2018/fabric/gossip/metrics/mocks
+github.com/Randyshu2018/fabric/gossip/privdata
+github.com/Randyshu2018/fabric/gossip/privdata/common
+github.com/Randyshu2018/fabric/gossip/privdata/mocks
+github.com/Randyshu2018/fabric/gossip/protoext
+github.com/Randyshu2018/fabric/gossip/service
+github.com/Randyshu2018/fabric/gossip/state
+github.com/Randyshu2018/fabric/gossip/state/mocks
+github.com/Randyshu2018/fabric/gossip/util
+github.com/Randyshu2018/fabric/idemix
+github.com/Randyshu2018/fabric/integration
+github.com/Randyshu2018/fabric/integration/chaincode/keylevelep
+github.com/Randyshu2018/fabric/integration/chaincode/kvexecutor
+github.com/Randyshu2018/fabric/integration/chaincode/marbles
+github.com/Randyshu2018/fabric/integration/chaincode/marbles_private
+github.com/Randyshu2018/fabric/integration/chaincode/simple
+github.com/Randyshu2018/fabric/integration/configtx
+github.com/Randyshu2018/fabric/integration/helpers
+github.com/Randyshu2018/fabric/integration/lifecycle/chaincode/callee
+github.com/Randyshu2018/fabric/integration/lifecycle/chaincode/caller
+github.com/Randyshu2018/fabric/integration/nwo
+github.com/Randyshu2018/fabric/integration/nwo/commands
+github.com/Randyshu2018/fabric/integration/nwo/fabricconfig
+github.com/Randyshu2018/fabric/integration/runner
+github.com/Randyshu2018/fabric/internal/ccmetadata
+github.com/Randyshu2018/fabric/internal/configtxgen/encoder
+github.com/Randyshu2018/fabric/internal/configtxgen/encoder/fakes
+github.com/Randyshu2018/fabric/internal/configtxgen/genesisconfig
+github.com/Randyshu2018/fabric/internal/configtxgen/metadata
+github.com/Randyshu2018/fabric/internal/configtxlator/metadata
+github.com/Randyshu2018/fabric/internal/configtxlator/rest
+github.com/Randyshu2018/fabric/internal/configtxlator/update
+github.com/Randyshu2018/fabric/internal/cryptogen/ca
+github.com/Randyshu2018/fabric/internal/cryptogen/csp
+github.com/Randyshu2018/fabric/internal/cryptogen/metadata
+github.com/Randyshu2018/fabric/internal/cryptogen/msp
+github.com/Randyshu2018/fabric/internal/fileutil
+github.com/Randyshu2018/fabric/internal/peer/chaincode
+github.com/Randyshu2018/fabric/internal/peer/chaincode/mock
+github.com/Randyshu2018/fabric/internal/peer/channel
+github.com/Randyshu2018/fabric/internal/peer/common
+github.com/Randyshu2018/fabric/internal/peer/common/mock
+github.com/Randyshu2018/fabric/internal/peer/gossip
+github.com/Randyshu2018/fabric/internal/peer/gossip/mocks
+github.com/Randyshu2018/fabric/internal/peer/lifecycle
+github.com/Randyshu2018/fabric/internal/peer/lifecycle/chaincode
+github.com/Randyshu2018/fabric/internal/peer/lifecycle/chaincode/mock
+github.com/Randyshu2018/fabric/internal/peer/node
+github.com/Randyshu2018/fabric/internal/peer/node/mock
+github.com/Randyshu2018/fabric/internal/peer/packaging
+github.com/Randyshu2018/fabric/internal/peer/packaging/mock
+github.com/Randyshu2018/fabric/internal/peer/version
+github.com/Randyshu2018/fabric/internal/pkg/comm
+github.com/Randyshu2018/fabric/internal/pkg/comm/testpb
+github.com/Randyshu2018/fabric/internal/pkg/identity
+github.com/Randyshu2018/fabric/internal/pkg/peer/blocksprovider
+github.com/Randyshu2018/fabric/internal/pkg/peer/blocksprovider/fake
+github.com/Randyshu2018/fabric/internal/pkg/peer/orderers
+github.com/Randyshu2018/fabric/internal/pkg/txflags
+github.com/Randyshu2018/fabric/msp
+github.com/Randyshu2018/fabric/msp/cache
+github.com/Randyshu2018/fabric/msp/mgmt
+github.com/Randyshu2018/fabric/msp/mgmt/testtools
+github.com/Randyshu2018/fabric/msp/mocks
+github.com/Randyshu2018/fabric/orderer/common/blockcutter
+github.com/Randyshu2018/fabric/orderer/common/blockcutter/mock
+github.com/Randyshu2018/fabric/orderer/common/bootstrap
+github.com/Randyshu2018/fabric/orderer/common/bootstrap/file
+github.com/Randyshu2018/fabric/orderer/common/broadcast
+github.com/Randyshu2018/fabric/orderer/common/broadcast/mock
+github.com/Randyshu2018/fabric/orderer/common/channelparticipation
+github.com/Randyshu2018/fabric/orderer/common/channelparticipation/mocks
+github.com/Randyshu2018/fabric/orderer/common/cluster
+github.com/Randyshu2018/fabric/orderer/common/cluster/mocks
+github.com/Randyshu2018/fabric/orderer/common/localconfig
+github.com/Randyshu2018/fabric/orderer/common/metadata
+github.com/Randyshu2018/fabric/orderer/common/msgprocessor
+github.com/Randyshu2018/fabric/orderer/common/msgprocessor/mocks
+github.com/Randyshu2018/fabric/orderer/common/multichannel
+github.com/Randyshu2018/fabric/orderer/common/multichannel/mocks
+github.com/Randyshu2018/fabric/orderer/common/onboarding
+github.com/Randyshu2018/fabric/orderer/common/onboarding/mocks
+github.com/Randyshu2018/fabric/orderer/common/server
+github.com/Randyshu2018/fabric/orderer/common/server/mocks
+github.com/Randyshu2018/fabric/orderer/common/types
+github.com/Randyshu2018/fabric/orderer/consensus
+github.com/Randyshu2018/fabric/orderer/consensus/etcdraft
+github.com/Randyshu2018/fabric/orderer/consensus/etcdraft/mocks
+github.com/Randyshu2018/fabric/orderer/consensus/follower
+github.com/Randyshu2018/fabric/orderer/consensus/inactive
+github.com/Randyshu2018/fabric/orderer/consensus/kafka
+github.com/Randyshu2018/fabric/orderer/consensus/kafka/mock
+github.com/Randyshu2018/fabric/orderer/consensus/mocks
+github.com/Randyshu2018/fabric/orderer/consensus/solo
+github.com/Randyshu2018/fabric/orderer/consensus/solo/mocks
+github.com/Randyshu2018/fabric/orderer/mocks/common/blockcutter
+github.com/Randyshu2018/fabric/orderer/mocks/common/multichannel
+github.com/Randyshu2018/fabric/orderer/mocks/util
+github.com/Randyshu2018/fabric/pkg/statedata
+github.com/Randyshu2018/fabric/pkg/tx
+github.com/Randyshu2018/fabric/protoutil
+github.com/Randyshu2018/fabric/protoutil/fakes
 # github.com/Shopify/sarama v1.20.1
 ## explicit
 github.com/Shopify/sarama
 github.com/Shopify/sarama/mocks
-# github.com/Shopify/toxiproxy v2.1.4+incompatible
-## explicit
 # github.com/VictoriaMetrics/fastcache v1.5.7
 ## explicit
 github.com/VictoriaMetrics/fastcache
-# github.com/VividCortex/gohistogram v1.0.0
-## explicit
 # github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc
 github.com/alecthomas/template
 github.com/alecthomas/template/parse
@@ -41,23 +373,16 @@ github.com/alecthomas/units
 github.com/beorn7/perks/quantile
 # github.com/cespare/xxhash/v2 v2.1.1
 github.com/cespare/xxhash/v2
-# github.com/containerd/continuity v0.0.0-20190426062206-aaeac12a7ffc
-## explicit
+# github.com/containerd/continuity v0.0.0-20181203112020-004b46473808
 github.com/containerd/continuity/pathdriver
-# github.com/coreos/go-systemd v0.0.0-20190620071333-e64a0ec8b42a
-## explicit
+# github.com/coreos/go-systemd v0.0.0-20180511133405-39ca1b05acc7
 github.com/coreos/go-systemd/journal
-# github.com/coreos/pkg v0.0.0-20180108230652-97fdf19511ea
-## explicit
+# github.com/coreos/pkg v0.0.0-20160727233714-3ac0863d7acf
 github.com/coreos/pkg/capnslog
 # github.com/davecgh/go-spew v1.1.1
 ## explicit
 github.com/davecgh/go-spew/spew
-# github.com/docker/distribution v2.7.1+incompatible
-## explicit
-github.com/docker/distribution/registry/api/errcode
-# github.com/docker/docker v17.12.0-ce-rc1.0.20190628135806-70f67c6240bb+incompatible
-## explicit
+# github.com/docker/docker v0.7.3-0.20190309235953-33c3200e0d16
 github.com/docker/docker/api/types/blkiodev
 github.com/docker/docker/api/types/container
 github.com/docker/docker/api/types/filters
@@ -82,8 +407,7 @@ github.com/docker/docker/pkg/system
 github.com/docker/go-connections/nat
 # github.com/docker/go-units v0.4.0
 github.com/docker/go-units
-# github.com/dustin/go-humanize v1.0.0
-## explicit
+# github.com/dustin/go-humanize v0.0.0-20171111073723-bb3d318650d4
 github.com/dustin/go-humanize
 # github.com/eapache/go-resiliency v1.2.0
 ## explicit
@@ -94,8 +418,6 @@ github.com/eapache/go-xerial-snappy
 # github.com/eapache/queue v1.1.0
 ## explicit
 github.com/eapache/queue
-# github.com/frankban/quicktest v1.9.0
-## explicit
 # github.com/fsouza/go-dockerclient v1.4.1
 ## explicit
 github.com/fsouza/go-dockerclient
@@ -127,11 +449,8 @@ github.com/golang/protobuf/ptypes/duration
 github.com/golang/protobuf/ptypes/empty
 github.com/golang/protobuf/ptypes/struct
 github.com/golang/protobuf/ptypes/timestamp
-# github.com/golang/snappy v0.0.2
-## explicit
+# github.com/golang/snappy v0.0.1
 github.com/golang/snappy
-# github.com/google/go-cmp v0.5.0
-## explicit
 # github.com/gorilla/handlers v1.4.0
 ## explicit
 github.com/gorilla/handlers
@@ -194,8 +513,7 @@ github.com/hyperledger/fabric-protos-go/transientstore
 github.com/ijc/Gotty
 # github.com/inconshreveable/mousetrap v1.0.0
 github.com/inconshreveable/mousetrap
-# github.com/konsorten/go-windows-terminal-sequences v1.0.2
-## explicit
+# github.com/konsorten/go-windows-terminal-sequences v1.0.1
 github.com/konsorten/go-windows-terminal-sequences
 # github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515
 github.com/kr/logfmt
@@ -204,11 +522,10 @@ github.com/kr/logfmt
 github.com/kr/pretty
 # github.com/kr/text v0.1.0
 github.com/kr/text
-# github.com/magiconair/properties v1.8.1
+# github.com/magiconair/properties v1.8.4
 ## explicit
 github.com/magiconair/properties
-# github.com/mattn/go-runewidth v0.0.4
-## explicit
+# github.com/mattn/go-runewidth v0.0.2
 github.com/mattn/go-runewidth
 # github.com/matttproud/golang_protobuf_extensions v1.0.1
 github.com/matttproud/golang_protobuf_extensions/pbutil
@@ -262,10 +579,9 @@ github.com/opencontainers/go-digest
 # github.com/opencontainers/image-spec v1.0.1
 github.com/opencontainers/image-spec/specs-go
 github.com/opencontainers/image-spec/specs-go/v1
-# github.com/opencontainers/runc v1.0.0-rc8
-## explicit
+# github.com/opencontainers/runc v0.1.1
 github.com/opencontainers/runc/libcontainer/user
-# github.com/pierrec/lz4 v2.5.0+incompatible
+# github.com/pierrec/lz4 v2.6.0+incompatible
 ## explicit
 github.com/pierrec/lz4
 github.com/pierrec/lz4/internal/xxh32
@@ -399,8 +715,7 @@ golang.org/x/net/trace
 golang.org/x/sys/cpu
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/text v0.3.2
-## explicit
+# golang.org/x/text v0.3.0
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
 golang.org/x/text/encoding/htmlindex
@@ -411,8 +726,6 @@ golang.org/x/text/encoding/korean
 golang.org/x/text/encoding/simplifiedchinese
 golang.org/x/text/encoding/traditionalchinese
 golang.org/x/text/encoding/unicode
-golang.org/x/text/internal/language
-golang.org/x/text/internal/language/compact
 golang.org/x/text/internal/tag
 golang.org/x/text/internal/utf8internal
 golang.org/x/text/language
@@ -431,7 +744,7 @@ golang.org/x/tools/internal/fastwalk
 golang.org/x/tools/internal/gopathwalk
 golang.org/x/tools/internal/semver
 golang.org/x/tools/internal/span
-# golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543
+# golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7
 golang.org/x/xerrors
 golang.org/x/xerrors/internal
 # google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
@@ -492,5 +805,5 @@ gopkg.in/tomb.v1
 # gopkg.in/yaml.v2 v2.2.8
 ## explicit
 gopkg.in/yaml.v2
-# github.com/hyperledger/fabric => ./
+# github.com/Randyshu2018/fabric => ./
 # golang.org/x/sys => golang.org/x/sys v0.0.0-20190920190810-ef0ce1748380

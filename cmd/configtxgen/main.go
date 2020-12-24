@@ -14,10 +14,6 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-config/protolator"
-	"github.com/hyperledger/fabric-config/protolator/protoext/ordererext"
-	cb "github.com/hyperledger/fabric-protos-go/common"
 	"github.com/Randyshu2018/fabric/bccsp/factory"
 	"github.com/Randyshu2018/fabric/common/channelconfig"
 	"github.com/Randyshu2018/fabric/common/flogging"
@@ -26,6 +22,10 @@ import (
 	"github.com/Randyshu2018/fabric/internal/configtxgen/metadata"
 	"github.com/Randyshu2018/fabric/internal/configtxlator/update"
 	"github.com/Randyshu2018/fabric/protoutil"
+	"github.com/golang/protobuf/proto"
+	"github.com/hyperledger/fabric-config/protolator"
+	"github.com/hyperledger/fabric-config/protolator/protoext/ordererext"
+	cb "github.com/hyperledger/fabric-protos-go/common"
 	"github.com/pkg/errors"
 )
 
