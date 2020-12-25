@@ -210,17 +210,23 @@ func (ks *fileBasedKeyStore) searchKeystoreForSKI(ski []byte) (k bccsp.Key, err 
 			continue
 		}
 
-		key, err := utils.PEMtoPrivateKey(raw, ks.pwd)
+		//key, err := utils.PEMtoPrivateKey(raw, ks.pwd)
+		//if err != nil {
+		//	continue
+		//}
+		//
+		//switch key.(type) {
+		//case *sm2.PrivateKey:
+		//	k = &gmsm2PrivateKey{key.(*sm2.PrivateKey)}
+		//default:
+		//	continue
+		//}
+		key, err := sm2.ReadPrivateKeyFromMem(raw, nil)
 		if err != nil {
 			continue
 		}
 
-		switch key.(type) {
-		case *sm2.PrivateKey:
-			k = &gmsm2PrivateKey{key.(*sm2.PrivateKey)}
-		default:
-			continue
-		}
+		k = &gmsm2PrivateKey{key}
 
 		if !bytes.Equal(k.SKI(), ski) {
 			continue

@@ -277,7 +277,7 @@ func CreateBuilders(builderConfs []peer.ExternalBuilder, mspid string) []*Builde
 		builders = append(builders, &Builder{
 			Location:             builderConf.Path,
 			Name:                 builderConf.Name,
-			PropagateEnvironment: builderConf.PropagateEnvironment,
+			PropagateEnvironment: builderConf.EnvironmentWhitelist,
 			Logger:               logger.Named(builderConf.Name),
 			MSPID:                mspid,
 		})

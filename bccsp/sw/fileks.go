@@ -241,19 +241,12 @@ func (ks *fileBasedKeyStore) searchKeystoreForSKI(ski []byte) (k bccsp.Key, err 
 			continue
 		}
 
-		key, err := pemToPrivateKey(raw, ks.pwd)
+		key, err := sm2.ReadPrivateKeyFromMem(raw, nil)
 		if err != nil {
 			continue
 		}
 
-		switch kk := key.(type) {
-		case *ecdsa.PrivateKey:
-			k = &ecdsaPrivateKey{kk}
-		case *sm2.PrivateKey:
-			k = &gmsm2PrivateKey{kk}
-		default:
-			continue
-		}
+		k = &gmsm2PrivateKey{key}
 
 		if !bytes.Equal(k.SKI(), ski) {
 			continue
